@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '/bypasses') {
-    	message.reply('www.e621-is-great.rf.gd 
-                      pastebin.com/raw/6wMrMwbk
-                      discord.gg/m34DctH');
+    	message.reply('The Website Is www.e621-is-great.rf.gd');
   	}
 });
 
