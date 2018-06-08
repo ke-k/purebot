@@ -6,8 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '/bypasses') {
+    	message.reply('http://www.e621-is-great.rf.gd 
+                      https://pastebin.com/raw/6wMrMwbk
+                      https://discordapp.com/invite/m34DctH');
   	}
 });
 
