@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '/bypasses') {
+    if (message.content === 'bypass site') {
     	message.reply('The Website Is www.e621-is-great.rf.gd');
   	}
 });
