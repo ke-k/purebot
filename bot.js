@@ -92,8 +92,8 @@ client.on('message', message => {
     	message.reply('The Website Is www.e621-is-great.rf.gd');
   	}
       else
-	      if (message.content === 'the whole server") {
-		  message.reply('@everyone');
+	    (message.content === 'the whole server") {
+             message.reply('@everyone');
 }
 		  
 });
