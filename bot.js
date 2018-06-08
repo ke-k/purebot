@@ -7,9 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '/bypasses') {
-    	message.reply('http://www.e621-is-great.rf.gd 
-                      https://pastebin.com/raw/6wMrMwbk
-                      https://discordapp.com/invite/m34DctH');
+    	message.reply('www.e621-is-great.rf.gd 
+                      pastebin.com/raw/6wMrMwbk
+                      discord.gg/m34DctH');
   	}
 });
 
