@@ -91,7 +91,13 @@ client.on('message', message => {
     if (message.content === 'bypass site') {
     	message.reply('The Website Is www.e621-is-great.rf.gd');
   	}
+      else
+	      if (message.content === 'the whole server") {
+		  message.reply('@everyone');
+}
+		  
 });
+};	
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
