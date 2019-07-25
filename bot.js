@@ -1,5 +1,12 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const bot = new Discord.Client();
+const token = 'NTkzODY4MzMzNTAyMzAwMTgw.XRUUjQ.QSH1Z396galq8CePR5Yf2RYUGFg'
+
+const prefix = '/';
+bot.on('ready', () =>{
+    console.log('uh uptime lmAo');
+})
+
 bot.on('message', message=> {
 
     let args = message.content.substring(prefix.length).split(" ");
@@ -31,5 +38,4 @@ bot.on('message', message=> {
         break;
     }
 });
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+bot.login(token);
